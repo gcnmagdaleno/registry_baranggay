@@ -1,0 +1,72 @@
+body {
+    /*background-color: #0f7e9b;*/
+    background-image: url("../images/bg_login.webp") !important;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.limiter {
+    background-color: #92d7ef;
+    padding: 25px;
+    margin: 150px;
+    font-size: 30px;
+    height: 80%;
+    border-radius: 20%;
+    opacity: 90%;
+}
+
+.input100 {
+    font-size: 25px;
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    z-index: 3;
+}
+
+.login100-form-btn {
+    font-size: 30px;
+    width: 45%;
+    margin: 20px;
+    padding: 8px;
+}
+
+.wrap-login100 {
+    margin-top: 30px;
+    opacity: 100%;
+}
+
+input:hover {
+    background-color: #e4e0dc;
+}
+
+@media (max-width: 768px) {
+    .limiter {
+        /*background-color: teal;*/
+        background-image: "images/bg_login.webp" !important;
+        padding: 25px;
+        margin: 10px;
+        font-size: 30px;
+        height: 80%;
+        border-radius: 30%;
+    }
+    .input100 {
+        font-size: 25px;
+        width: 75%;
+        padding: 10px;
+        margin: 5px;
+        text-align: center;
+    }
+    .login100-form-btn {
+        font-size: 30px;
+        width: 85%;
+        margin: 20px;
+        padding: 8px;
+    }
+    .wrap-login100 {
+        margin-top: 20px;
+    }
+}
